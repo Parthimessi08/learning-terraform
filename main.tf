@@ -28,7 +28,7 @@ resource "aws_instance" "blog" {
   }
 }
 
-module "security_group" {
+module "vpc" {
   source  = "terraform-aws-modules/security-groups/aws"
   version = "4.13.0"
   name    = "blog_new"
