@@ -3,7 +3,7 @@ data "aws_ami" "app_ami" {
 
   filter {
     name   = "name"
-    values = ["ami-00fb540f325b4761d"]
+    values = ["bitnami-tomcat-10.1.18-1-r01-linux-debian-11-x86_64-hvm-ebs-nami"]
   }
 
   filter {
