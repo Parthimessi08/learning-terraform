@@ -32,7 +32,6 @@ module "blog_sg" {
   source  = "terraform-aws-modules/security-group/aws"
   version = "5.2.0"
   name    ="blog_new"
-}
 
   vpc_id = data.aws_vpc.default.id
 
