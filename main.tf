@@ -2,7 +2,7 @@ data "aws_ami" "app_ami" {
   most_recent = true
 
   filter {
-    name   = "id"
+    name   = "name"
     values = ["ami-00fb540f325b4761d"]
   }
 
